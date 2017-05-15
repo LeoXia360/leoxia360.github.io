@@ -4,7 +4,7 @@ body {
 
 
 div.center {
-	position: fixed;
+	position: absolute;
     text-align: center;
     color: white;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -15,7 +15,7 @@ div.center {
 }
 
 img.center {
-  position: fixed;
+  position: absolute;
   top: 30%;
   left: 50%;
   /* bring your own prefixes */
@@ -27,7 +27,7 @@ img.center {
 }
 
 .links {
-    position: fixed;
+    position: absolute;
     text-align: center;
     color: white;
     font-size: 40px;
