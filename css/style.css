@@ -1,0 +1,38 @@
+body {
+    background-color: #F95759;
+}
+
+
+div.center {
+	position: fixed;
+    text-align: center;
+    color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    top: 55%;
+    left: 50%;
+	transform: translate(-50%, -55%);
+}
+
+img.center {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.about{
+	background-color: white;
+}
+
+.links {
+    position: fixed;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    top: 75%;
+    left: 50%;
+	transform: translate(-50%, -75%);
+}
+
