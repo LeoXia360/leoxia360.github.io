@@ -1,10 +1,86 @@
-body {
+/*body {
     background-color: #F95759;
+}*/
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(90deg, #5759f9 50%, #F95759 50%);
+}
+
+td{
+    text-align:center;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+}
+
+nav.pinned {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    transition: 0.3s ease background-color;
+    -webkit-transition: 0.2s ease background-color;
+    margin:auto;
+}
+
+.navbar-wrapper {
+    height: 3rem;
+}
+
+.navbar {
+    text-align: center;
+    margin: auto;
+
+}
+nav ul{
+  display: inline-block;
+}
+
+.icon{
+  position:relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-top: -20px;
+}
+
+input.resize{
+    width:40%; /* you can use % */
+    height: auto;
+}
+
+img.resize{
+  left: 50%;
+  width: 40%;
+  max-width: 471px;
+  height:    auto;
+    margin:    0 auto;
+    display:   block;
+
+}
+
+input.nav-resize{
+  left:50%;
+  width: 10%;
+}
+
+
+.title{
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:25px;
+  margin-top: -20px;
 }
 
 
 div.center {
-	position: absolute;
+	position: fixed;
     text-align: center;
     color: white;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -15,24 +91,91 @@ div.center {
 }
 
 img.center {
-  position: absolute;
+  position: fixed;
+  float left;
   top: 30%;
-  left: 50%;
   /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+  
 }
 
+div.horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+div.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ul{
+  display: inline;
+  margin: 0;
+  padding: 0;
+
+}
+li {
+    display: inline;
+}
 .about{
 	background-color: white;
 }
 
-.links {
-    position: absolute;
+.content {
+        width: 90%;
+    }
+
+
+.arrow {
+    position: fixed;
     text-align: center;
     color: white;
-    font-size: 40px;
-    top: 65%;
+    font-size: 30px;
+    top: 90%;
     left: 50%;
-	transform: translate(-50%, -65%);
+    transform: translate(-50%, -50%);
+
+}
+.left-center{
+  float: left;
+  width: 50%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.right-center{
+  float: right;
+  width:50%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.jobs{
+  color:white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #5759f9;
+   margin:20px;
+   padding: 10px;
+
+}
+.contact{
+  color:white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+#page1{
+  height:100%;
+
+}
+#page2{
+    height:100%;
+}
+#page3{
+    height:100%;
+
+
+}
+#page4{
+    height:100%;
+
+}
