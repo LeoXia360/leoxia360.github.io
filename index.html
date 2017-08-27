@@ -44,11 +44,12 @@
           var pinPoint = $navbarWrapper.offset().top;
 
           if (distanceScrolled >= pinPoint) {
+            
             $navbar.addClass('pinned');
 
           } else {
-            
-            $navbar.removeClass('pinned')
+            $navbar.removeClass('pinned');
+
           }
         });
           
@@ -89,22 +90,22 @@
     <div class=icon>
       <script>
         function color(x) {
-          x.style.color = "#a1a2fc";
+          x.style.color = "#dcd0c0";
         }
         function normal(x) {
-          x.style.color = "#fca1a2";
+          x.style.color = "#e7e7e7";
         }
         function white(x){
           x.style.color="white";
         }
       </script>
 
-      <a href="http://github.com/leoxia360" target="_blank"><i class="fa fa-github" style="color:#fca1a2;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
-      <a href="http://twitter.com/c3pleo" target="_blank"><i class="fa fa-twitter" style="color:#fca1a2;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
-      <a href="http://instagram.com/c3pleo" target="_blank"><i class="fa fa-instagram" style="color:#fca1a2;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
-      <a href="https://www.linkedin.com/in/leoxia96" target="_blank"><i class="fa fa-linkedin" style="color:#fca1a2;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
-      <a href="https://www.facebook.com/leoxia96" target="_blank"><i class="fa fa-facebook" style="color:#fca1a2;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
-      <a href="https://soundcloud.com/leoxia" target="_blank"><i class="fa fa-soundcloud" style="color:#fca1a2;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
+      <a href="http://github.com/leoxia360" target="_blank"><i class="fa fa-github" style="color:#e7e7e7;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
+      <a href="http://twitter.com/c3pleo" target="_blank"><i class="fa fa-twitter" style="color:#e7e7e7;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
+      <a href="http://instagram.com/c3pleo" target="_blank"><i class="fa fa-instagram" style="color:#e7e7e7;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
+      <a href="https://www.linkedin.com/in/leoxia96" target="_blank"><i class="fa fa-linkedin" style="color:#e7e7e7;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
+      <a href="https://www.facebook.com/leoxia96" target="_blank"><i class="fa fa-facebook" style="color:#e7e7e7;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
+      <a href="https://soundcloud.com/leoxia" target="_blank"><i class="fa fa-soundcloud" style="color:#e7e7e7;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
     </div>
   </td>
 
@@ -151,6 +152,19 @@
     <section class=left-center>
       <img src="img/about-me.png" class="resize">
     </section> 
+    <section class=right-center>
+     <div class=jobs>
+        <p>
+        Hi friend! I’m Leo, a student studying Electrical and Computer Engineering at The University of Texas at Austin. 
+        </p>
+        <p>
+          My interest in engineering began with my interest in magic. I loved being able to learn and create my own tricks. However, my parents rarely purchased magic tricks for me online so I had to watch demo videos, figure the tricks out, and then handcraft my own gimmicks. I enjoyed the process of approaching a project with no idea on how to do it and then figuring out a way to make something useful with my hands. Subsequently, I thought that software engineering might be an appropriate outlet for creating something "magical." 
+        </p>
+        <p>
+          Outside of my engineering life, I’m a sneaker head, food junkie, amateur rapper, tennis player, Apple fanboy, and Green Bay Packer fan!
+        </p>
+      </div>
+      </section>
   </div>
    
   <div id="page2">
@@ -181,10 +195,16 @@
 
       <section class=right-center>
         <div class=jobs>
-          <iframe width="400" height="200" style="display:inline;" src="https://www.youtube.com/embed/VeFSMfF9X1g" frameborder="0" allowfullscreen></iframe>
           <h1>Street Fighter</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper eros eget nibh pretium, ut scelerisque ligula consectetur. Quisque quis hendrerit nisl. Donec consectetur vitae libero sed elementum. Sed accumsan faucibus elit, sed egestas neque auctor et. Morbi eu luctus odio, non faucibus orci.</p>
+          <iframe width="400" height="200" style="float:left" src="https://www.youtube.com/embed/VeFSMfF9X1g" frameborder="0" allowfullscreen></iframe>
+          <ul>
+            <li><p>interfaced 3 buttons for punch, kick, and hadoken checked by a SysTick ISR</p></li>
+            <li><p>implemented a 4 bit DAC in conjunction with a timer ISR to output sound</p></li>
+            <li><p>display bitmap images to LCD screen</p></li>
+            <li><p>calibrated a slide potentiometer using an ADC to control a character's movement on the screen</p></li>
+          </ul>
         </div>
+
         <div class=jobs>
           <h1>3 Day Startup</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper eros eget nibh pretium, ut scelerisque ligula consectetur. Quisque quis hendrerit nisl. Donec consectetur vitae libero sed elementum. Sed accumsan faucibus elit, sed egestas neque auctor et. Morbi eu luctus odio, non faucibus orci. In hac habitasse platea dictumst. Vivamus accumsan felis metus. Mauris vel lacus tortor. Ut sit amet arcu vulputate, venenatis mauris vel, tincidunt felis. Nam vitae magna mauris. Etiam mollis tempus felis, eget varius elit dignissim et. Ut tristique arcu sed hendrerit viverra.
@@ -200,7 +220,7 @@
     </section>
     <section class=right-center>
           <div class=contact>
-            <a href="mailto:leoxia@utexas.edu" target="_blank" style="color:white" onmouseover="color(this)" onmouseout="white(this)" ><h1>leoxia@utexas.edu</h1></a>
+            <a href="mailto:leoxia@utexas.edu" target="_blank" style="color:white" onmouseover="normal(this)" onmouseout="white(this)"><h1>leoxia@utexas.edu</h1></a>
           </div>
     </section>
   </div>

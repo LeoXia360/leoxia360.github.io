@@ -8,7 +8,7 @@ html {
 
 body {
     height: 100%;
-    background: linear-gradient(90deg, #5759f9 50%, #F95759 50%);
+    background: linear-gradient(90deg, #c0b283 50%, #dcd0c0 50%);
 }
 
 td{
@@ -23,7 +23,7 @@ nav {
 nav.pinned {
     position: fixed;
     top: 0;
-    background-color: black;
+    background-color: #373737;
     transition: 0.3s ease background-color;
     -webkit-transition: 0.2s ease background-color;
     margin:auto;
@@ -36,8 +36,9 @@ nav.pinned {
 .navbar {
     text-align: center;
     margin: auto;
-
+    width:100%;
 }
+
 nav ul{
   display: inline-block;
 }
@@ -122,7 +123,7 @@ li {
 }
 
 .content {
-        width: 90%;
+        width: 100%;
     }
 
 
@@ -150,13 +151,13 @@ li {
   top: 50%;
   transform: translateY(-50%);
 }
+
 .jobs{
-  color:white;
+  color:#373737;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-   background-color: #5759f9;
+   background-color: #f4f4f4;
    margin:20px;
    padding: 10px;
-
 }
 .contact{
   color:white;
