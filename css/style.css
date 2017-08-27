@@ -79,6 +79,24 @@ input.nav-resize{
   margin-top: -20px;
 }
 
+.email {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  margin-top:  -10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.phone {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  margin-top: -15px;
+}
+
 
 div.center {
 	position: fixed;
