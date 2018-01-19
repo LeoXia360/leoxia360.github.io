@@ -1,200 +1,115 @@
-/*body {
-    background-color: #F95759;
-}*/
 
-html {
-    height: 100%;
-}
 
 body {
-    height: 100%;
-    background: linear-gradient(90deg, #c0b283 50%, #dcd0c0 50%);
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	width: 100%;
+	background-color: #FBFBFB;
 }
 
-td{
-    text-align:center;
-}
-
-nav {
-    position: relative;
-    z-index: 1;
-}
-
-nav.pinned {
-    position: fixed;
-    top: 0;
-    background-color: #373737;
-    transition: 0.3s ease background-color;
-    -webkit-transition: 0.2s ease background-color;
-    margin:auto;
-}
-
-.navbar-wrapper {
-    height: 3rem;
-}
-
-.navbar {
-    text-align: center;
-    margin: auto;
-    width:100%;
-}
-
-nav ul{
-  display: inline-block;
-}
-
-.icon{
-  position:relative;
-  text-align: center;
-  color: white;
-  font-size: 30px;
-  margin-top: -20px;
-}
-
-input.resize{
-    width:40%; /* you can use % */
-    height: auto;
-}
-
-img.resize{
-  left: 50%;
-  width: 40%;
-  max-width: 471px;
-  height:    auto;
-    margin:    0 auto;
-    display:   block;
+h1 {
+	color: #1A3D33;
+	font-family: 'Playfair Display', serif;
 
 }
-
-input.nav-resize{
-  left:50%;
-  width: 10%;
-}
-
-
-.title{
-  color: white;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size:25px;
-  margin-top: -20px;
-}
-
-.email {
-  color: white;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  margin-top:  -10px;
-}
-
 a {
-  text-decoration: none;
-}
-
-.phone {
-  color: white;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  margin-top: -15px;
+    color: #193D35;
 }
 
 
-div.center {
-	position: fixed;
-    text-align: center;
-    color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 40px;
-    top: 55%;
-    left: 50%;
-	transform: translate(-50%, -55%);
-}
 
-img.center {
-  position: fixed;
-  float left;
-  top: 30%;
-  /* bring your own prefixes */
-  
-}
-
-div.horizontal {
-    display: flex;
-    justify-content: center;
-}
-
-div.vertical {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-ul{
-  display: inline;
-  margin: 0;
-  padding: 0;
-
-}
-li {
-    display: inline;
-}
-.about{
-	background-color: white;
-}
-
-.content {
-        width: 100%;
-    }
+/*-----------------------------------------------------------------------*/
+/*.fa {
+	color: #999999;
+	margin-top: 0.9em;
+	margin-bottom: 0.9em;
+}*/
 
 
-.arrow {
-    position: fixed;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/*-----------------------------------------------------------------------*/
 
-}
-.left-center{
-  float: left;
-  width: 50%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.right-center{
-  float: right;
-  width:50%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+#wrapper {
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+    margin-top: 75;
 }
 
-.jobs{
-  color:#373737;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-   background-color: #f4f4f4;
-   margin:20px;
-   padding: 10px;
-}
-.contact{
-  color:white;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+#profile-img { 
+	display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: 12%;
+	width: 60%;
+} 
+
+/*#caption {
+	margin: auto;
+	font-size: 15px;
+	text-align: center;
+	width:50%;
+	margin-top: 5px;
+	float:left;
+}*/
+
+#contact {
+	margin-top: 0.45em;
+	display: block;
+	margin: 0.9em auto 0;
+	text-align: center;
 }
 
-#page1{
-  height:100%;
+#contact a {
+	margin-right: 2.6em;
+	font-size: 17px;
+	text-decoration: none;
+} 
+
+#contact a:last-child {
+	margin-right: 0;
+}
+
+#contact a:hover {
+	color: #C5D4C1;
+}
+
+#about-me {
+	list-style: inside;
+	display: table;
+	margin-right: 19%;
+ 	margin-left: auto;
+ 	margin-top:6%;
 
 }
-#page2{
-    height:100%;
+#about-me h3 {
+	font-family: 'Playfair Display', serif;
 }
-#page3{
-    height:100%;
+#about-me ul {
+/*		list-style-type: none;
+*/		padding: 0;
+		margin: 0;
+}
+#about-me a:hover{
+	color:#C5D4C1;
+}
+
+#left-half {
+	float:left;
+	width:50%;
+}
+#right-half {
+	float:right;
+	width:50%;
+}
 
 
-}
-#page4{
-    height:100%;
 
-}
+
+
+
+
+
+
+
+

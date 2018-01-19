@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="img/stamp-32x32.png" sizes="32x32" />
+
+    <script src="script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    
+
+
+  </head>
+
+  <body>
+
+  <table width=100% height=100%><tr><td width=50%>
+    <img src="img/leoxia.png" width="250" height="250">
+    <div class="title">
+      <h1>leo xia</h1>
+    </div>
+
+    <div class=icon>
+      <script>
+        function color(x) {
+          x.style.color = "#444444";
+        }
+        function normal(x) {
+          x.style.color = "#7A7A7A";
+        }
+        function color_white(x){
+          x.style.color="white";
+        }
+        function color_blue(x) {
+          x.style.color="#0E83CD";
+        }
+        function color_red(x) {
+          x.style.color="#F06060";
+        }
+        function color_yellow(x) {
+          x.style.color="#FCD04B";
+        }
+        function color_green(x) {
+          x.style.color="#2ECC71";
+        }
+        function color_purple(x) {
+          x.style.color="#9E54BD";
+        }
+      </script>
+
+      <a href="http://github.com/leoxia360" target="_blank"><i class="fa fa-github" style="color:#7A7A7A;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
+      <a href="http://twitter.com/c3pleo" target="_blank"><i class="fa fa-twitter" style="color:#7A7A7A;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
+      <a href="http://instagram.com/c3pleo" target="_blank"><i class="fa fa-instagram" style="color:#7A7A7A;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
+      <a href="https://www.linkedin.com/in/leoxia96" target="_blank"><i class="fa fa-linkedin" style="color:#7A7A7A;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
+      <a href="https://www.facebook.com/leoxia96" target="_blank"><i class="fa fa-facebook" style="color:#7A7A7A;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
+      <a href="https://soundcloud.com/leoxia" target="_blank"><i class="fa fa-soundcloud" style="color:#7A7A7A;" onmouseover="color(this)" onmouseout="normal(this)"></i></a>
+    </div>
+
+    <div class="email">
+      <a href="mailto:leoxia@utexas.edu" target="_blank" style="color:#7A7A7A" onmouseover="color(this)" onmouseout="normal(this)"><h3>leoxia@utexas.edu</h3><a>
+    </div>
+    <div class="phone">
+      <a style="color:#7A7A7A"><h3>512 775 3856</h3></a>
+    </div>
+    </td>
+
+
+  <td width=50%>
+    <div class="links">
+      <div class="title">
+          <a href="#about-me" style="color:#7A7A7A" onmouseover="color_blue(this)" onmouseout="normal(this)" onclick="show('.scannable')"><h2>about me</h2></a>
+          <a href="#experience" style="color:#7A7A7A" onmouseover="color_red(this)" onmouseout="normal(this)"><h2>experience</h2></a>
+          <a href="#projects" style="color:#7A7A7A" onmouseover="color_yellow(this)" onmouseout="normal(this)"><h2>projects</h2></a>
+          <a href="#organizations" style="color:#7A7A7A" onmouseover="color_purple(this)" onmouseout="normal(this)"><h2>organizations</h2></a>
+          <a href="#portfolio" style="color:#7A7A7A" onmouseover="color_blue(this)" onmouseout="normal(this)"><h2>portfolio</h2></a>
+          <a href="files/leo_xia_resume_3.pdf" target="_blank" style="color:#7A7A7A" onmouseover="color_green(this)" onmouseout="normal(this)"><h2>resume</h2></a>
+      </div>
+  </div>
+  </td>
+  </tr>
+  </table>
+
+	<div id="white">
+		<div id="content">
+			<div class="scannable">
+				<div class="x"><a href=""><img src="img/x.png" class="close" onclick="hide()"></a></div>
+				<h1>Welcome to my website! I'm Leo Xia, an Electrical and Computer Engineering Major at The University of Texas at Austin.</h1>
+			</div>
+		</div>
+	</div>
+
+
+<!--
+
+  <div class="arrow">
+      <a href="#about-me"><i class="fa fa-arrow-down" style="color:white"></i></a>
+  </div>
+
+
+  <div class="navbar-wrapper">
+            <nav>
+                <div class="navbar content">
+                    <ul>
+                        <li><a href="#about-me"><p>about me</p></a></li>
+                        <li><a href="#experience"><p>experience</p></a></li>
+                        <li><a href="#projects"><p>projects</p></a></li>
+                        <li><a href="#resume"><p>resume</p></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+-->
+
+<!--
+
+
+  <div id="page1">
+    <a id="about-me" class="smooth"></a>
+    <section class=left-center>
+      <h2 class="title">about me<h2>
+    </section> 
+    <section class=right-center>
+     <div class=jobs>
+        <p>
+        Hi friend! I’m Leo, a student studying Electrical and Computer Engineering at The University of Texas at Austin. 
+        </p>
+        <p>
+          My interest in engineering began with my interest in magic. I loved being able to learn and create my own tricks. However, my parents rarely purchased magic tricks for me online so I had to watch demo videos, figure the tricks out, and then handcraft my own gimmicks. I enjoyed the process of approaching a project with no idea on how to do it and then figuring out a way to make something useful with my hands. Subsequently, I thought that software engineering might be an appropriate outlet for creating something "magical." 
+        </p>
+        <p>
+          Outside of my engineering life, I’m a sneaker head, food junkie, amateur rapper, tennis player, Apple fanboy, and Green Bay Packer fan!
+        </p>
+      </div>
+      </section>
+  </div>
+   
+  <div id="page2">
+    <a id="experience" class="smooth"></a>
+      <section class=left-center>
+      <img src="img/experience.png" class="resize">
+      </section>
+
+      <section class=right-center>
+      <div class=jobs>
+          <h1>Amazon.com Inc.</h1>
+          <p>Distributed systems design for Amazon’s retail website and other services using Netty, EC2, and WebSockets. My project provides server protection and pushes core businesspriorities: customer experience, Amazon Web Services adoption, and maximizing efficiency of backend resources.
+          </p>
+        </div>
+        <div class=jobs>
+          <h1>Roku Inc.</h1>
+          <p>Wrote automated unit tests for streaming products with Python and BrightScript which were pushed out to production and run every firmware release. Led the set up for the creation of a new automation lab which increased testing efficiency and debugged existing test issues in Jenkins.
+          </p>
+        </div>
+        <div class=jobs>
+          <h1>3 Day Startup</h1>
+          <p>Led a team of twenty people and managed $5000 running a 72 hour learn-by-doing startup workshop which resulted in multiple startup success stories.
+          </p>
+        </div>
+      </section>
+  </div>
+   
+  <div id="page3">
+    <a id="projects" class="smooth"></a>
+      <section class=left-center>
+      <img src="img/projects.png" class="resize">
+      </section>
+
+      <section class=right-center>
+        <div class=jobs>
+          <h1>Street Fighter</h1>
+          <iframe width="400" height="200" style="float:left" src="https://www.youtube.com/embed/VeFSMfF9X1g" frameborder="0" allowfullscreen></iframe>
+          <ul>
+            <li><p>interfaced 3 buttons for punch, kick, and hadoken checked by a SysTick ISR</p></li>
+            <li><p>implemented a 4 bit DAC in conjunction with a timer ISR to output sound</p></li>
+            <li><p>display bitmap images to LCD screen</p></li>
+            <li><p>calibrated a slide potentiometer using an ADC to control a character's movement on the screen</p></li>
+          </ul>
+        </div>
+
+        <div class=jobs>
+          <h1>3 Day Startup</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper eros eget nibh pretium, ut scelerisque ligula consectetur. Quisque quis hendrerit nisl. Donec consectetur vitae libero sed elementum. Sed accumsan faucibus elit, sed egestas neque auctor et. Morbi eu luctus odio, non faucibus orci. In hac habitasse platea dictumst. Vivamus accumsan felis metus. Mauris vel lacus tortor. Ut sit amet arcu vulputate, venenatis mauris vel, tincidunt felis. Nam vitae magna mauris. Etiam mollis tempus felis, eget varius elit dignissim et. Ut tristique arcu sed hendrerit viverra.
+          </p>
+        </div>
+      </section>
+  </div>
+
+-->
+  </body>
+
+</html>
